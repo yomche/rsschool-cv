@@ -13,10 +13,10 @@ Fifth year student of the Faculty of Mathematics. The purpose of my admission to
 
 ## Skills
 
-* **Programming Languages** : HTML | CSS | JavaScript
+* **Programming Languages** : HTML, CSS, JavaScript
 * **IDE** : Visual Studio Code
 * **Libraries** : Styled Components 
-* **Other software** : Adobe Photoshop CS6 | Autodesk 3ds Max
+* **Other software** : Adobe Photoshop CS6, Autodesk 3ds Max
 
 ## Code examples
 
