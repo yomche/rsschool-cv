@@ -17,9 +17,36 @@ Fifth year student of the Faculty of Mathematics. The purpose of my admission to
 
 ## Code examples
 
+```
+import { StyledHeader, StyledButton, StyledMenu, StyledText } from './header.styles';
+import { StyledHeaderLogo } from '../logo/logo.styles';
+
+const HeaderComponent = () => (
+	<StyledHeader>
+		<StyledHeaderLogo />
+		<StyledMenu>
+			<StyledButton>
+				<StyledText> МЕНЮ </StyledText>
+			</StyledButton>
+			<StyledButton>
+				<StyledText> КОНТАКТЫ </StyledText>
+			</StyledButton>
+			<StyledButton>
+				<StyledText> О НАС </StyledText>
+			</StyledButton>
+			<StyledButton>
+				<StyledText> КОРЗИНА </StyledText>
+			</StyledButton>
+		</StyledMenu>
+	</StyledHeader>
+);
+```
 
 ## Experience
 
+* Worked on creating a [Website __Photo Album__](https://github.com/yomche/yomche.github.io) with HTML & CSS (2019)
+
+* Worked in a team on creating a [Website for a pizzeria __"HomeMadePizza"__](https://github.com/yomche/Epam-HomeMadePizza-Task/tree/team-1_test_header_menu_about) during a summer university practice in EPAM Systems, receiving the knowledge of the process of creating an application. Created site components with HTML & CSS (2020)
 
 ## Education
 
