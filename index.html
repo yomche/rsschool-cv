@@ -1,70 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Junior Developer CV</title>
-    <link rel="icon" href="favicon.jpg" type="image/x-icon" />
-    <style>
-      * { margin: auto; }
 
-      body {
-        width: max-content;
-        height: max-content;
-        text-align: center;
-        background-color: #f4e6e0;
-      }
+<head>
+  <meta charset="UTF-8" />
+  <title>Junior Developer CV</title>
+  <link rel="icon" href="favicon.jpg" type="image/x-icon" />
+  <style>
+    * { margin: auto; }
 
-      .pageBackground {
-        background-image: url(qubeLines.png);
-        background-size: contain;
-        background-color: #f4e6e0;
-      }
+    body {
+      width: max-content;
+      height: max-content;
+      text-align: center;
+      background-color: #f4e6e0;
+    }
 
-      .devName {
-        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-        font-size: 60px;
-        color: azure;
-      }
+    .pageBackground {
+      background-image: url(qubeLines.png);
+      background-size: contain;
+      background-color: #f4e6e0;
+    }
 
-      .devPhoto { width: 250px; }
+    .devName {
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+      font-size: 60px;
+      color: azure;
+    }
 
-      .emailLogo, .telegramLogo, .githubLogo { width: 25px; }
+    .devPhoto { width: 250px; }
 
-      .phoneLogo { width: 20px; }
+    .emailLogo, .telegramLogo, .githubLogo { width: 25px; }
 
-      .headerDecor {
-        display: block;
-        width: 900px;
-        height: 170px;
-        margin-top: -150px;
-        background-color: #3e3e3e;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-      }
-    </style>
-  </head>
+    .phoneLogo { width: 20px; }
+
+    .headerDecor {
+      display: block;
+      width: 900px;
+      height: 170px;
+      margin-top: -150px;
+      background-color: #3e3e3e;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+
+    main {
+      background-color: #f4e6e0;
+      border: 2px solid #3e3e3e;
+    }
+
+    .sectionText {
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+      font-size: 50px;
+      color: #3e3e3e;
+    }
+
+    .textSpacing {
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+      color: #f4e6e0;
+      font-size: 20px;
+      word-spacing: 10px;
+    }
+
+    .contentText {
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+      font-size: 20px;
+      color: #3e3e3e;
+    }
+
+    .contentTextLeft {
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+      font-size: 20px;
+      color: #3e3e3e;
+      text-align: left;
+    }
+
+    .summaryBlock {
+      width: 860px;
+      height: 200px;
+      margin-top: 20px;
+    }
+
+    .inlineBlocks {
+      display: inline-block;
+      width: 420px;
+      height: 100px;
+      margin-top: 20px;
+    }
+
+    .codeBlock {
+      width: 860px;
+      height: 560px;
+      margin-top: 20px;
+    }
+
+    .educationBlock {
+      width: 860px;
+      height: 300px;
+      margin-top: 20px;
+    }
+
+    .englishBlock {
+      width: 860px;
+      height: 170px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
 
 <body>
-    <div class="pageBackground">
-      <header>
-        <img class="devPhoto" src="photoCv.png" alt="Developer Photo" />
-        <p class="devName">EKATERINA SMIRNOVA</p>
-        <p class="textSpacing">
-          <img class="emailLogo" src="emailLogo.png" alt="Email Icon" />
-          katerina.smirnova98@yandex.ru
-          <img class="phoneLogo" src="phoneLogo.png" alt="Phone Icon" />
-          +7(964)16507-51
-          <img
-            class="telegramLogo"
-            src="telegramLogo.png"
-            alt="Telegram Icon"
-          />
-          yomche
-          <img class="githubLogo" src="githubLogo.png" alt="GitHub Icon" />
-          yomche
+  <div class="pageBackground">
+    <header>
+      <img class="devPhoto" src="photoCv.png" alt="Developer Photo" />
+      <p class="devName">EKATERINA SMIRNOVA</p>
+      <p class="textSpacing">
+        <img class="emailLogo" src="emailLogo.png" alt="Email Icon" />
+        katerina.smirnova98@yandex.ru
+        <img class="phoneLogo" src="phoneLogo.png" alt="Phone Icon" />
+        +7(964)16507-51
+        <img class="telegramLogo" src="telegramLogo.png" alt="Telegram Icon" />
+        yomche
+        <img class="githubLogo" src="githubLogo.png" alt="GitHub Icon" />
+        yomche
+      </p>
+      <div class="headerDecor"></div>
+    </header>
+    <main>
+      <section class="summaryBlock">
+        <p class="sectionText">SUMMARY</p>
+        <p class="contentText">
+          I'M FIFTH YEAR STUDENT OF THE FACULTY OF MATHEMATICS.
+          <br />
+          THE PURPOSE OF MY ADMISSION TO THIS COURSE IS THE DESIRE TO LEARN
+          THE BASICS OF FRONT-END DEVELOPMENT WITH THE SUBSEQUENT IMPROVEMENT
+          OF MY KNOWLEDGE AND SKILLS. I WOULD LIKE TO CONNECT MY CAREER WITH
+          IT, BECAUSE FOR ME IT IS IMPORTANT THAT THE PROFESSION IS NOT ONLY A
+          WAY OF EARNING, BUT ALSO A HOBBY AND A WAY OF MEETING PEOPLE WITH
+          SIMILAR GOALS AND OUTLOOKS ON LIFE.
         </p>
-        <div class="headerDecor"></div>
-      </header>
-    </div>
-  </body>
+      </section>
+      <section class="inlineBlocks">
+        <p class="sectionText">SKILLS</p>
+        <p class="contentTextLeft">
+          <strong>PROGRAMMING LANGUAGES</strong> : HTML, CSS, JavaScript
+          <br />
+          <strong>IDE</strong> : Visual Studio Code
+          <br />
+          <strong>LIBRARIES</strong> : Styled Components
+          <br />
+          <strong>OTHER SOFTWARE</strong> : Adobe Photoshop CS6, Autodesk 3ds
+          Max
+        </p>
+        <br /><br /><br /><br /><br />
+      </section>
+      <section class="inlineBlocks">
+        <p class="sectionText">EXPERIENCE</p>
+        <ul class="contentTextLeft">
+          <li>
+            WORKED ON CREATING A WEBSITE
+            <a href="https://github.com/yomche/yomche.github.io">PHOTO ALBUM</a>
+            WITH HTML & CSS
+          </li>
+          <li>
+            WORKED IN A TEAM ON CREATING A
+            <a href="https://github.com/yomche/Epam-HomeMadePizza-Task/tree/team-1_test_header_menu_about">WEBSITE FOR A
+              PIZZERIA “HOMEMADEPIZZA”</a>
+            DURING A SUMMER UNIVERSITY PRACTICE IN EPAM SYSTEMS, RECEIVING THE
+            KNOWLEDGE OF THE PROCESS OF CREATING AN APPLICATION. CREATED SITE
+            COMPONENTS WITH HTML & CSS
+          </li>
+        </ul>
+      </section>
+      <section class="codeBlock">
+        <p class="sectionText">CODE EXAMPLE</p>
+        <pre class="contentTextLeft">
+  import { StyledHeader, StyledButton, StyledMenu, StyledText } from './header.styles';
+  import { StyledHeaderLogo } from '../logo/logo.styles';
+
+  const HeaderComponent = () => (     
+        &lt;StyledHeader&gt; 
+                &lt;StyledHeaderLogo /&gt; 
+                &lt;StyledMenu&gt; 
+                          &lt;StyledButton&gt; 
+                                    &lt;StyledText&gt; МЕНЮ &lt;/StyledText&gt; 
+                          &lt;/StyledButton&gt; 
+                          &lt;StyledButton&gt; 
+                                    &lt;StyledText&gt; КОНТАКТЫ &lt;/StyledText&gt; 
+                          &lt;/StyledButton&gt; 
+                          &lt;StyledButton&gt; 
+                                    &lt;StyledText&gt; О НАС &lt;/StyledText&gt; 
+                          &lt;/StyledButton&gt; 
+                          &lt;StyledButton&gt; 
+                                    &lt;StyledText&gt; КОРЗИНА &lt;/StyledText&gt; 
+                          &lt;/StyledButton&gt; 
+                &lt;/StyledMenu&gt; 
+      &lt;/StyledHeader&gt; 
+  );
+  </pre>
+      </section>
+      <section class="educationBlock">
+        <p class="sectionText">EDUCATION</p>
+        <p class="contentTextLeft">
+          <strong>HIGHER EDUCATION</strong> :
+          <br />
+          TVER STATE UNIVERSITY,SPECIALIZATION “COMPUTER SECURITY” (2016 –
+          2022) <br /><br />
+          <strong>SELF EDUCATION </strong> :
+        </p>
+        <ul class="contentTextLeft">
+          <li>CODE BASICS: HTML & CSS & JAVASCRIPT</li>
+          <li>HTML ACADEMY (FREE СONTENT)</li>
+          <li>
+            YANDEX.PRACTIKUM: HTML, CSS, JAVASCRIPT: FREE INTRODUCTORY COURSE
+          </li>
+          <li>LEARN.JAVASCRIPT.RU (IN PROGRESS)</li>
+          <li>
+            HTML AND CSS: DESIGN AND BUILD WEBSITES BY JON DUCKETT (IN
+            PROGRESS)
+          </li>
+          <li>
+            JAVASCRIPT AND JQUERY: INTERACTIVE FRONT-END WEB DEVELOPMENT BY
+            JON DUCKETT (IN PROGRESS)
+          </li>
+        </ul>
+      </section>
+      <section class="englishBlock">
+        <p class="sectionText">ENGLISH</p>
+        <p class="contentText">
+          I HAVE NO CONVERSATIONAL PRACTICE, BUT RESULT FROM EF SET INDICATES
+          THAT MY LEVEL OF ENGLISH IS SOMEWHERE BETWEEN B1 (INTERMEDIATE) AND
+          B2 (UPPER INTERMEDIATE) ACCORDING TO THE COMMON EUROPEAN FRAMEWORK
+          OF REFERENCE, ALSO KNOWN AS THE CEFR.
+        </p>
+      </section>
+    </main>
+  </div>
+</body>
+
 </html>
