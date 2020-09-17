@@ -9,7 +9,7 @@
     * { margin: auto; }
 
     body {
-      width: max-content;
+      max-width: max-content;
       height: max-content;
       text-align: center;
       background-color: #f4e6e0;
@@ -36,7 +36,7 @@
 
     .headerDecor {
       display: block;
-      width: 900px;
+      max-width: 900px;
       height: 170px;
       margin-top: -150px;
       background-color: #3e3e3e;
@@ -77,8 +77,8 @@
     }
 
     .summaryBlock {
-      width: 860px;
-      height: 200px;
+      max-width: 860px;
+      min-height: 200px;
       margin-top: 20px;
     }
 
@@ -90,19 +90,19 @@
     }
 
     .codeBlock {
-      width: 860px;
+      max-width: 860px;
       height: 560px;
       margin-top: 20px;
     }
 
     .educationBlock {
-      width: 860px;
-      height: 300px;
+      max-width: 860px;
+      min-height: 300px;
       margin-top: 20px;
     }
 
     .englishBlock {
-      width: 860px;
+      max-width: 860px;
       height: 170px;
       margin-top: 20px;
     }
@@ -162,7 +162,6 @@
           <strong>OTHER SOFTWARE</strong> : Adobe Photoshop CS6, Autodesk 3ds
           Max
         </p>
-        <br /><br /><br /><br /><br />
       </section>
       <section class="inlineBlocks">
         <p class="sectionText">EXPERIENCE</p>
@@ -176,16 +175,14 @@
             WORKED IN A TEAM ON CREATING A
             <a href="https://github.com/yomche/Epam-HomeMadePizza-Task/tree/team-1_test_header_menu_about">WEBSITE FOR A
               PIZZERIA “HOMEMADEPIZZA”</a>
-            DURING A SUMMER UNIVERSITY PRACTICE IN EPAM SYSTEMS, RECEIVING THE
-            KNOWLEDGE OF THE PROCESS OF CREATING AN APPLICATION. CREATED SITE
-            COMPONENTS WITH HTML & CSS
+            DURING UNIVERSITY PRACTICE IN EPAM SYSTEMS
           </li>
         </ul>
       </section>
       <section class="codeBlock">
         <p class="sectionText">CODE EXAMPLE</p>
         <pre class="contentTextLeft">
-  import { StyledHeader, StyledButton, StyledMenu, StyledText } from './header.styles';
+  import { StyledHeader, StyledButton, StyledMenu, StyledText } <br>  from './header.styles';
   import { StyledHeaderLogo } from '../logo/logo.styles';
 
   const HeaderComponent = () => (     
