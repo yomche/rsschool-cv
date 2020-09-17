@@ -9,7 +9,7 @@
     * { margin: auto; }
 
     body {
-      width: max-content;
+      max-width: max-content;
       height: max-content;
       text-align: center;
       background-color: #f4e6e0;
@@ -36,7 +36,7 @@
 
     .headerDecor {
       display: block;
-      width: 900px;
+      max-width: 900px;
       height: 170px;
       margin-top: -150px;
       background-color: #3e3e3e;
@@ -77,8 +77,8 @@
     }
 
     .summaryBlock {
-      width: 860px;
-      height: 200px;
+      max-width: 860px;
+      min-height: 200px;
       margin-top: 20px;
     }
 
@@ -90,19 +90,19 @@
     }
 
     .codeBlock {
-      width: 860px;
+      max-width: 860px;
       height: 560px;
       margin-top: 20px;
     }
 
     .educationBlock {
-      width: 860px;
-      height: 300px;
+      max-width: 860px;
+      min-height: 300px;
       margin-top: 20px;
     }
 
     .englishBlock {
-      width: 860px;
+      max-width: 860px;
       height: 170px;
       margin-top: 20px;
     }
@@ -185,7 +185,7 @@
       <section class="codeBlock">
         <p class="sectionText">CODE EXAMPLE</p>
         <pre class="contentTextLeft">
-  import { StyledHeader, StyledButton, StyledMenu, StyledText } from './header.styles';
+  import { StyledHeader, StyledButton, StyledMenu, StyledText } <br>  from './header.styles';
   import { StyledHeaderLogo } from '../logo/logo.styles';
 
   const HeaderComponent = () => (     
