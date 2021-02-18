@@ -3,7 +3,7 @@
 ## Contact Info
 
   * **Email** : katerina.smirnova98@yandex.ru
-  * **Phone number** : +7 (964) 165 07 - 51
+  * **Phone number** : +7 (000) 000 00 - 00
   * **Telegram** : @yomche
   * **GitHub** : @yomche
 
